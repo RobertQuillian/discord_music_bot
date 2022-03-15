@@ -1,0 +1,23 @@
+{
+  "name": "discordmusic",
+  "version": "1.0.0",
+  "description": "discord bot for playing music from youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "discord.js": "^12.5.3",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^4.4.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "prism-media": "^1.3.2",
+    "youtube-search": "^1.1.6",
+    "youtube-search-api": "^1.0.11",
+    "ytdl-core": "^4.10.0",
+    "ytdl-core-discord": "^1.3.1"
+  }
+}
